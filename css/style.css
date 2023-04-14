@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 101);
+}
+header h1{
+    color: red;
+    font-size: 6rem;
+    font-weight: 700;
+}
+main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 101);
+}
+main .titulo-apuesta{
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 20px;
+}
+main #lista-juegos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+main .tarjeta-juego{
+    border: solid red 2px;
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+main .titulo-juego {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: white;
+}
+main .imagen-juego{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+main input{
+    width: 150px;
+    height: 50px;
+    border: solid 1px red;
+    margin: 20px 50px;
+}
+main button{
+    width: 100px;
+    height: 50px;
+    border: solid 1px red;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+main #tabla-resultados-juegos{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border: solid 1px red;
+}
+main #tabla-resultados-apuestas{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border: solid 1px red;
+}
+main .linea-titulo{
+    width: 50px;
+    height: 30px;
+    text-align: start;
+}
+main .linea-tabla{
+    width:100px;
+    height: 30px;
+    font-size: 1.1rem;
+    padding: 0px 20px;
+    text-align: center;
+}
+

@@ -1,0 +1,19 @@
+[
+    {
+        "img": "ruleta.jpeg",
+        "name": "Ruleta",
+        "id": "juego1"
+    },
+
+    {
+        "img": "maquinita.jpg",
+        "name": "Tragamonedas",
+        "id": "juego2"
+    },
+
+    {
+        "img": "poker.jpg",
+        "name": "Poker",
+        "id": "juego3"
+    }
+]
